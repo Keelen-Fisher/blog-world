@@ -12,6 +12,9 @@
 
 ## UML
 
+- ![Alt text](public/assets/Project%20UML%201.png)
+
+- ![Alt text](public/assets/Project%20UML%202.png)
 
 ## Software Requirements
 
@@ -29,6 +32,7 @@ Languages: ***HTML, CSS, JavaScript***
 
 ## Technical Requirements
 
+- Build a front end application with the focus being MUI, 6 Pages worth, and 3rd Party API linked with either sources of blogs or resources that links to blogs.
 
 ## Application Structure/Architecture
 
@@ -43,3 +47,7 @@ Languages: ***HTML, CSS, JavaScript***
 
 
 ## Resources
+
+## Stretch Goal
+
+- Translate to a phone app?
