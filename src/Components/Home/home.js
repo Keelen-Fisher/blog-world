@@ -21,7 +21,7 @@ const useStyles = createStyles((theme) => ({
   },
 
   h1: {
-    fontFamily: 'IM Fell Great Primer SC',
+    // fontFamily: 'IM Fell Great Primer SC',
   },
 
   button: {
@@ -31,8 +31,8 @@ const useStyles = createStyles((theme) => ({
   }
 }));
 
-const handleClick = () => {
-  console.log('testing');
+const handleClick = (e) => {
+  console.log('testing', e.target);
 }
 
 
@@ -50,7 +50,7 @@ function HeaderHome() {
               <Link className={classes.inner} to="/blogs">New Blog</Link>
               <Link className={classes.inner} to="/motivation">Motivation-Generator</Link>
               <Link className={classes.inner} to="/journal">Journal</Link>
-              <button className={classes.button} onClick={handleClick}> Sign In </button>
+              <button className={classes.button} onClick={(e) => handleClick(e)}> Sign In </button>
             </Group>
           </Group>
         </Navbar>
