@@ -1,5 +1,5 @@
 import Footer from './Components/Footer/footer';
-import HeaderHome from './Components/Home/header';
+import HeaderHome from './Components/Home/home';
 import { BrowserRouter, Route, Routes } from 'react-router-dom/dist';
 import './App.css';
 function App() {
@@ -7,10 +7,10 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <HeaderHome />
-        <Routes>
+        {/* <Routes>
           <Route path="/" />
           <Route path="/settings" />
-        </Routes>
+        </Routes> */}
         <Footer />
       </div>
     </BrowserRouter>
