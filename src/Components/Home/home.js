@@ -2,6 +2,7 @@ import { createStyles, Header, Navbar, Group } from '@mantine/core';
 // import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 import React from 'react';
 import { Link } from 'react-router-dom'
+// import Blog from 'Blog/blog.js';
 
 const useStyles = createStyles((theme) => ({
   navbar: {
@@ -47,7 +48,7 @@ function HeaderHome() {
               <Link className={classes.inner} default to="/">Home</Link>
               <Link className={classes.inner} to="/settings">Settings</Link>
               <Link className={classes.inner} to="/blogs">Blogs</Link>
-              <Link className={classes.inner} to="/blogs">New Blog</Link>
+              <Link className={classes.inner} to="/blog">New Blog</Link>
               <Link className={classes.inner} to="/motivation">Motivation-Generator</Link>
               <Link className={classes.inner} to="/journal">Journal</Link>
               <button className={classes.button} onClick={(e) => handleClick(e)}> Sign In </button>
